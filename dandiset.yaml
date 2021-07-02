@@ -5,12 +5,20 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
   numberOfBytes: 477562344354
   numberOfFiles: 214
   numberOfSubjects: 32
@@ -19,7 +27,10 @@ assetsSummary:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: House mouse
     schemaKey: SpeciesType
-  variableMeasured: []
+  variableMeasured:
+  - ProcessingModule
+  - LFP
+  - Units
 citation: Siegle, Josh; Wakeman, Wayne; Jia, Xiaoxuan; Heller, Gregg; Ramirez, Tamina;
   Graddis, Nile; Mei, Nicholas; Durand, Severine (2021) 20191003_AIBS_mouse_ecephys_brain_observatory_1_1
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000021/draft
