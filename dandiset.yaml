@@ -132,7 +132,8 @@ keywords:
 - machine learning
 - neurobiology
 - signal processing
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000021/versions/draft/assets/
 name: 20191003_AIBS_mouse_ecephys_brain_observatory_1_1
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
