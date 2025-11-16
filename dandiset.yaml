@@ -36,8 +36,8 @@ assetsSummary:
   - Units
 citation: Siegle, Josh; Wakeman, Wayne; Jia, Xiaoxuan; Heller, Gregg; Ramirez, Tamina;
   Graddis, Nile; Mei, Nicholas; Durand, Severine (2025) Allen Institute - Visual Coding
-  - Neuropixels (Brain Observatory 1.1 Stimulus Set) (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/000021/draft
+  - Neuropixels (Brain Observatory 1.1 Stimulus Set) (Version 0.251116.2246) [Data
+  set]. DANDI Archive. https://doi.org/10.48324/dandi.000021/0.251116.2246
 contributor:
 - affiliation:
   - name: Allen Institute for Brain Science
@@ -117,12 +117,14 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2020-05-26T16:47:47.341000+00:00'
+datePublished: '2025-11-16T22:46:42.638124+00:00'
 description: "Allen Institute October 2019 Mouse extracellular electrophysiology data
   approximately matching two-photon brain observatory stimulus set. \n\nFor more information,
   see https://portal.brain-map.org/explore/circuits/visual-coding-neuropixels\n\n
   Data are subject to Allen Institute terms of use, available at: http://www.alleninstitute.org/legal/terms-use/"
+doi: 10.48324/dandi.000021/0.251116.2246
 ethicsApproval: []
-id: DANDI:000021/draft
+id: DANDI:000021/0.251116.2246
 identifier: DANDI:000021
 keywords:
 - electrophysiology
@@ -133,13 +135,25 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000021/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000021/0.251116.2246/assets.yaml
 name: Allen Institute - Visual Coding - Neuropixels (Brain Observatory 1.1 Stimulus
   Set)
+publishedBy:
+  endDate: '2025-11-16T22:46:42.638124+00:00'
+  id: urn:uuid:8d2dd92e-8009-4d49-92f4-7cdfb4b03ddc
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-11-16T22:46:42.638124+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:30a39d33-fa6b-47d5-ac94-8245d7eba364
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
-url: https://dandiarchive.org/dandiset/000021/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000021/0.251116.2246
+version: 0.251116.2246
 wasGeneratedBy: []
